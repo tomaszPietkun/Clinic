@@ -1,0 +1,13 @@
+package com.crud.clinic.patient.domain;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+@Getter
+@AllArgsConstructor
+public class PatientDto {
+    private Long patientId;
+    private String patientName;
+    private String patientSurname;
+    private int patientAge;
+}
